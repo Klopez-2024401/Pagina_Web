@@ -7,8 +7,6 @@ body {
 }
  
 header {
-    background-color: #1f2a38;
-    color: white;
     text-align: center;
     padding: 25px;
 }
@@ -24,12 +22,6 @@ main {
     padding: 20px;
 }
  
-section {
-    background-color: white;
-    margin-bottom: 25px;
-    padding: 20px;
-    border-radius: 10px;
-}
  
 h2 {
     color: #1f2a38;
@@ -55,24 +47,18 @@ footer {
 }
 
 body {
-    background-color: #f2f2f2;
-    background-image:
-        linear-gradient(45deg, #dcdcdc 25%, transparent 25%),
-        linear-gradient(-45deg, #dcdcdc 25%, transparent 25%),
-        linear-gradient(45deg, transparent 75%, #dcdcdc 75%),
-        linear-gradient(-45deg, transparent 75%, #dcdcdc 75%);
-    background-size: 40px 40px;
-    background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+    background-color: #284058e0;
 }
-
 .hero {
-    background:
-        linear-gradient(rgba(20,30,40,0.85), rgba(20,30,40,0.85)),
-        url("https://upload.wikimedia.org/wikipedia/commons/d/d6/Chess_game_in_progress.jpg");
+    min-height: 260px;
+    background-image:
+        linear-gradient(rgba(20,30,40,0.75), rgba(20,30,40,0.75)),
+        url("https://img2.rtve.es/n/2452264");
     background-size: cover;
     background-position: center;
-    padding: 70px 40px;
+    background-repeat: no-repeat;
     color: white;
+    padding: 100px;
     position: relative;
 }
 
@@ -97,11 +83,11 @@ body {
 }
 
 section {
-    background: #ffffff;
+    background-color: rgba(255, 255, 255, 0.80);
     padding: 25px;
     margin-bottom: 25px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+    border-radius: 14px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
@@ -112,4 +98,14 @@ h2 {
 
 h3 {
     color: #333;
+}
+
+.pieza {
+    width: 80px;
+    display: block;
+    margin: 10px 0 15px 0;
+}
+
+body {
+    background-color: #284058e0;
 }
