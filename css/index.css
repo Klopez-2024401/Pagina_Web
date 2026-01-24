@@ -10,7 +10,6 @@ body {
     color: #ffffff;
 }
 
-/* Barra de navegación */
 .navbar {
     background-color: #111;
     padding: 15px 40px;
@@ -40,7 +39,6 @@ body {
     color: #f1c40f;
 }
 
-/* Encabezado */
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -56,7 +54,6 @@ body {
     opacity: 0.8;
 }
 
-/* Contenido */
 .contenedor {
     max-width: 1000px;
     margin: auto;
@@ -89,7 +86,6 @@ body {
     margin-bottom: 8px;
 }
 
-/* Footer */
 footer {
     background-color: #111;
     text-align: center;
